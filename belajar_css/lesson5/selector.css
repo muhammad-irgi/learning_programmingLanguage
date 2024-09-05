@@ -1,0 +1,31 @@
+body {
+    font-family: arial;
+
+}
+/* menggabungan dua buah elemen html untuk memberi style yang sama */
+
+h1, h2 {
+    color:green;
+
+}
+
+/* css tolong berika style di dalam a yang di dalam ul  yang di dalam ul */
+ul li a {
+    color: orange;
+
+}
+
+ol li a {
+    color: red;
+
+}
+
+/* memberi style css pada kenyataan */
+#p1 {
+    color: purple
+
+}
+
+.p2 {
+    color: brown
+}

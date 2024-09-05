@@ -1,0 +1,35 @@
+.wrapper1 {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.satu, .dua, .tiga {
+    width: 100px;
+    height: 100px;
+}
+
+.satu {
+    background-color: lime;
+}
+
+.dua {
+    background-color: skyblue;
+    float: right;
+}
+
+.tiga {
+    background-color: sandybrown;
+}
+
+.wrapper2 {
+    width: 600px;
+    border: 1px solid black;
+}
+
+.wrapper2 img {
+    max-width: 30%;
+    float: left;
+    margin: 10px;
+}

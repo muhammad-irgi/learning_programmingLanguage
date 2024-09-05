@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+    background-color: sandybrown;
+}
+
+.dua {
+    width: 150px;
+    background-color: pink;
+    position: absolute; /* tempat sebelumnya dianggap tidak ada*/
+    left: 0;
+    top: 0; /* bergerak berdasarkan element parentnya */
+}
+
+.tiga {
+    background-color: orange;
+}

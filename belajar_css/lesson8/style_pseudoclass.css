@@ -1,0 +1,31 @@
+/*  :link = style default pada sebuah link(a yang memiliki href).
+    :hover = style ketika kusor mouse berada diatas sebuah link/elemen.
+    :active = style ketika sebuah link di-klik(keadaan aktif).
+    :visited = style ketika sebuah link sudah pernah dikunjungi
+                sebelumnya(menggunakan browser yang sama).
+*/
+.hello:link{
+    color: purple;
+}
+
+.hello:hover{
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+/*CHILD*/
+li:nth-child(2n-1) a{
+    font-family: arial;
+    color: red;
+}
+li:nth-child(2n-1) a:hover{
+    font-size: 20px;
+    color: aqua;
+}

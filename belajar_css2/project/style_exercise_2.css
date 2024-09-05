@@ -1,0 +1,52 @@
+.kotak {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: lime;
+    margin-top: 200px;
+    z-index: -2;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.kotak2{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 100px;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img1 {
+    position: absolute;
+    animation: akotak1 5s infinite;
+}
+
+.img2 {
+    position: absolute;
+    clip: rect(100px, 300px, 300px, 100px);
+    z-index: 1;
+    left: -100px;
+    top: -100px;
+    animation: akotak2 5s infinite;
+}
+@keyframes akotak1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes akotak2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

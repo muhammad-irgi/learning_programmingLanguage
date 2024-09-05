@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>External css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>hello world</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatem molestias porro dolores iste asperiores magnam tenetur voluptate alias
+        quaerat ad fugit vitae aliquam harum quos repellendus eveniet, ipsum ut.</p>
+
+    
+</body>
+</html>

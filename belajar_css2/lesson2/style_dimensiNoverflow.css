@@ -1,0 +1,17 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+}
+
+.dua {
+    width: 100%;
+    background-color: red;
+}
+/*overflow : visible, auto, hidden, scroll*/
+.p {
+    overflow: auto;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}

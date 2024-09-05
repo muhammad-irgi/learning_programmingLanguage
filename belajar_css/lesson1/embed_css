@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        embed css
+    </title>
+    <style>
+        h1 {
+            color:lightblue ;
+            font-family: arial;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>hello world</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, repellat quod tenetur inventore soluta qui 
+        impedit? Eum vitae tempora corporis! Ullam natus velit assumenda ipsa ad, et consequatur ab ipsum.
+    </p>
+</body>
+</html>

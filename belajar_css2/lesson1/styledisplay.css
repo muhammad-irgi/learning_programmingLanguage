@@ -1,0 +1,13 @@
+.navigation li {
+    display: inline;
+}
+.main {
+    background-color: aquamarine;
+    width: 600px;
+}
+
+.main h2 {
+    /*display here is folowing the parental element(.main)*/
+    background-color: blue;
+    display: block;
+}

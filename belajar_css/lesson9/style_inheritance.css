@@ -1,0 +1,10 @@
+body {
+    font-family: arial;
+    color: darkgray;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    font-size: 20px;
+}

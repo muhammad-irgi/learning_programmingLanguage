@@ -1,0 +1,30 @@
+/* belajar mengenai text styling */
+
+/* text-transform : lowercase menghasilkan output huruf kapital pada pertama dari setiap kata */
+h1 {
+    color : skyblue;
+    font-size: 150px;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: lowercase; 
+}
+
+/* text-transform : lowercase menghasilkan output huruf kecil pada pertama dari setiap kata */
+#para1 {
+    color: #4D455D;
+    text-align: left;
+    text-transform: capitalize;
+    word-spacing: 10px;
+
+}
+
+#para2 {
+    color: rgb(223, 255, 216);
+    text-indent: 100px;
+}
+
+/* output yang ditampilakan dati text decoration : none adalah menghilangkan garis pada link */
+a {
+    text-decoration: none;
+    
+}
