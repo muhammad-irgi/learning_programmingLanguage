@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>
+        Hyperlink - halaman 1
+    </title>
+</head>
+<body>
+   <h1 id="hyperlink">hyperlink</h1>
+    <p>klik <a href="http://www.google.com">disini</a> untuk mengetahui infomasi lebih lanjut</p>
+<hr>
+    <p>klik <a href="../admin/halaman_2">disini</a> untuk mengetahui informasi tentang kami</p>
+<hr>
+    <p>hyperlink menuju halaman "html_list" klik <a href="../admin/html_list">disini</a></p>
+<hr>
+    <p>cek pelajaran pertama tentang HTML klik <a href="../../lesson1/lesson1.html">disini</a></p>
+<hr>
+    <p>open web "heading_html dengan membuka tab?jendela baru klik 
+        <a href="../../lesson3/heading_html.html" target="_blank">disini</a></p>
+<hr>
+<h1 style="text-align: center;font-family: Verdana; background-color: aquamarine;display: block;">
+    misalkan ini adalah sebuah artikel</h1>
+ 
+<ul>
+    <li><a href="#bagian 1">ke bagian 1</a></li>
+    <li><a href="#bagian 2">ke bagian 2</a></li>
+    <li><a href="#bagian 3">ke bagian 3</a></li>
+</ul>
+
+<h2 id="bagian 1">bagian 1</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+minima molestias similique amet, excepturi ipsum cupiditate esse placeat
+porro quae, quisquam quia? Sit in distinctio dolorum aspernatur quasi! Molestiae,
+perferendis.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+minima molestias similique amet, excepturi ipsum cupiditate esse placeat
+porro quae, quisquam quia? Sit in distinctio dolorum aspernatur quasi! Molestiae,
+perferendis</p>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<h2 id="bagian 2">bagian 2</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+minima molestias similique amet, excepturi ipsum cupiditate esse placeat
+porro quae, quisquam quia? Sit in distinctio dolorum aspernatur quasi! Molestiae,
+perferendis</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+minima molestias similique amet, excepturi ipsum cupiditate esse placeat
+porro quae, quisquam quia? Sit in distinctio dolorum aspernatur quasi! Molestiae,
+perferendis</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+minima molestias similique amet, excepturi ipsum cupiditate esse placeat
+porro quae, quisquam quia? Sit in distinctio dolorum aspernatur quasi! Molestiae,
+perferendis</p>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<h2 id="bagian 3">bagian 3</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+minima molestias similique amet, excepturi ipsum cupiditate esse placeat
+porro quae, quisquam quia? Sit in distinctio dolorum aspernatur quasi! Molestiae,
+perferendis</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+minima molestias similique amet, excepturi ipsum cupiditate esse placeat
+porro quae, quisquam quia? Sit in distinctio dolorum aspernatur quasi! Molestiae,
+perferendis</p>
+
+ <br><br><br><br><br><br><br><br><br><br>
+ <br><br><br><br><br><br><br><br><br><br>
+ <p style="text-align:center;"><a href="#hyperlink">kembali ke atas</a></p>
+
+
+</body>
+
+</html>

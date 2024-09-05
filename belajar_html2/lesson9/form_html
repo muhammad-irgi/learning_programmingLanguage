@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        HTML form
+    </title>
+</head>
+<body>
+    <form action="">
+    <label for="username">username : </label>
+    <input type="text" id="username">
+        <br>
+    <label for="password">password : </label>
+    <input type="password" id="pasword">
+        <br>
+    <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+    <input type="radio" name="jeniskelamin" id="wanita"><label for="wanita">wanita</label>
+        <br>
+    <input type="checkbox" name="hobby" id="memancing"><label for="memancing">memancing</label>
+    <input type="checkbox" name="hobby" id="menyanyi"><label for="menyanyi">menyanyi</label>
+    <input type="checkbox" name="hobby" id="membaca"><label for="membaca">membaca</label>
+        <br>
+    <textarea name="tulisartikelmu" id="tulisartikelmu" cols="30" rows="5">tulis artikel kamu</textarea>
+        <br>
+    <select name="" id="">
+        <option value="">bandung</option>
+        <option value="">jakarta</option>
+        <option value="">bogor</option>
+    </select>
+    <button type="submit">kirim!!!!</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        HTML List
+    </title>
+</head>
+<body>
+
+<!-- <ol></ol> adalah ordered list dengan type bilangan natural dan <li></li> adalah list item -->
+    <h3>to do list</h3>
+<ol type="A">
+    <li>bangun pagi</li>
+    <li>sarapan</li>
+    <li>sholat dhuha</li>
+</ol>
+
+<!-- <ul></ul> adalah unordered list untuk menyatakan sesuatu yang tidak terurut-->
+    <h3>makanan yang akan saya makan</h3>
+<ul type="circle">
+    <li>kentang goreng</li>
+    <li>ayam geprek</li>
+    <li>bakso wonogiri</li>
+</ul>
+
+<!-- <dl></dl> adalah definition list cakupannya <dt></dt> sebagai definition term dan <dd></dd>
+    sebagai definition description, DT dan DD harus berpangan -->
+    <h3>pemograman web</h3>
+<dl>
+    <dt>HTML</dt>
+    <dd>Hypertext Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheet</dd>
+</dl>    
+
+
+<h2>Navigation Menu</h2>
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</body>
+</html>

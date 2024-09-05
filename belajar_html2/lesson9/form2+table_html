@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        form entahlah
+    </title>
+</head>
+<body><form>
+    <table cellspacing="0" cellpadding="5">
+        <tr style="text-align: center;">
+            <td colspan="2"><p>contoh form sedehana</p></td>
+        </tr>
+        <tr>
+            <td><label for="username">username : </label></td>
+            <td><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td><label for="password">password : </label></td>
+            <td><input type="password" id="pasword"></td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">
+                <input type="radio" name="radio" id="1" ><label for="1">radio 1</label>
+                <input type="radio" name="radio" id="2"><label for="2">radio 2</label>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">
+                <input type="checkbox" name="checkbox" id="1"><label for="1">checkbox 1</label>
+                <input type="checkbox" name="checkbox" id="2"><label for="2">checkbox 2</label>
+            </td>
+        </tr>
+        <tr>
+            <td>combo box</td>
+            <td>
+             <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+             </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="textarea">textarea</label></td>
+            <td><textarea name="textarea" id="" cols="20" rows="5"></textarea></td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </td>
+        </tr>
+    </form></table>
+</body>
+</html>

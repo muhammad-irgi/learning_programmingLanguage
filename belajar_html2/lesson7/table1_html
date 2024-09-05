@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        table_html        
+    </title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 2 kolom 1</td>
+            <td>batis 2 kolom 2</td>
+        </tr>
+    </table>
+    <hr>
+    <p>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>baris 1 kolom 1</td>
+                <td>baris 2 kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2 kolom 1</td>
+                <td>batis 2 kolom 2</td>
+            </tr>
+            <tr>
+                <td>whwhwh</td>
+            </tr>
+        </table>
+    </p>    
+    <p>table with.....</p>
+    <p>
+        <ul type="A">
+            <li>border="1"</li>
+            <li>cellspacing="0"</li>
+            <li>cellpadding="5"</li>
+        </ul>
+    </p>
+    </table>
+    <hr>
+</body>
+</html>

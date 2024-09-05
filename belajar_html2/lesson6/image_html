@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        image
+    </title>
+</head>
+<body>
+    <!-- internal resource logo png, background jpg. berada di dalam folder yang sama-->
+    <img src="LOGO_UIKA_Terbaru2.png" alt="IbnKhaldunBogor" width="100" title="IbnKhaldunBogor">
+    <P>alt="IbnKhaldunBogor"</P>
+    <p> width="100"</p>
+    <p> title="IbnKhaldunBogor"</p>
+<hr>
+    <!-- internal resource-->
+    <img src="../Drawing.png" alt="" width="100">
+    <p>rc="../Drawing.png"</p>
+    <p>alt="" width="100"</p>
+<hr>
+    <img src="LOGO_UIKA_Terbaru2.png" title="IbnKhaldunBogor" width="20%">
+    <p> title="IbnKhaldunBogor"</p>
+    <p>width="20%"</p>
+<hr>
+    <!-- external resource atau hotlink menggunakan gambar dari website lain dengan menulis alamat 
+    gambar tersebut. hal ini tidak dianjurkan karena setiap foto bisa saja memiliki hak cipta -->
+    <p>external resource</p>
+<hr>
+    <a href="https://www.youtube.com/" target="_blankx"><img src="YouTube-Logo.png" alt="pergi ke applikasi youtube" 
+        width="100"></a>
+    <p>(a href="https://www.youtube.com/")</p>
+    <p>alt="pergi ke applikasi youtube"</p>
+<br><br><br><br><br>
+</body>
+</html>

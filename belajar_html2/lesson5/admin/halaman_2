@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Hyperlink - halaman 2
+    </title>
+</head>
+<body>
+   
+    <p>okeh jadi ini halaman ke 2</p>
+    <p>kembali ke halaman 1 klik <a href="../user/anchor_html">disini</a></p>
+
+</body>
+
+</html>
