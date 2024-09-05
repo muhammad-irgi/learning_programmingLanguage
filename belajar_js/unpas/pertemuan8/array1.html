@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array: 1</title>
+</head>
+<body>
+    <h1>Array in javascript 1</h1>
+    <p>open console in inspect to see the output !!</p>
+    <script>
+        var binatang = [];
+        binatang = ['kucing', 'kelinci', 'monyet', 'panda', 'koala', 'sapi'];
+
+        // menampilkan semua description array
+        console.log(binatang)
+        // print koala
+        console.log(binatang[4]);
+        // manampilkan isi array
+        for (let i = 0; i < binatang.length; i++) {
+            console.log(binatang[i]);
+        }
+        // tipe dari variable, jika array maka output: object
+        console.log(typeof(binatang));
+        // print banyak elemen pada array
+        console.log(binatang.length);
+
+        var myFunc = function () {
+            alert('Hello World');
+        }
+        // ARRAY BOLEH BEDA TIPE
+        var myArr = ['teks', 2, false]; 
+        var myArr2 = ['teks', 2, false, myFunc]; // bisa dimasukan function
+        var myArr3 = ['teks', 2, false, myFunc, [1, 2, 3]]; // bisa juga dimasukan array lagi
+
+        // menampilkan 2 pada array myArr3
+        console.log(myArr3[4][1]);
+    </script>
+</body>
+</html>

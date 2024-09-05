@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>forth experiment</h1>
+    <button onclick="myFunction1()">numerically ascending</button>
+    <button onclick="myFunction2()">alphabetly</button>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p>max number is <span id="demo3"></span></p>
+<script>
+    const numbers = [40, 100, 1, 5, 25, 10];
+    document.getElementById("demo").innerHTML = numbers;
+    // function myFunction1(){
+    //     numbers.sort(function(a, b){return a - b});
+    //     document.getElementById("demo2").innerHTML = numbers;
+    // }
+
+    // function myFunction2(){
+    //     numbers.sort(function(a, b){return b - a});
+    //     document.getElementById("demo2").innerHTML = numbers;
+    // }
+    
+    function myFunction1(){
+        numbers.sort(function(a, b){return a - b});
+        document.getElementById("demo2").innerHTML = numbers;
+        function maxPoint(arr){
+            return Math.max.apply(null, arr);
+        }
+        let text = maxPoint(numbers);
+        document.getElementById("demo3").innerHTML = text;
+    }
+    function myFunction2(){
+        numbers.sort();
+        document.getElementById("demo2").innerHTML = numbers;
+        var textElement = document.getElementById("demo3");
+        textElement.textContent = "";
+    }
+</script>
+</body>
+</html>

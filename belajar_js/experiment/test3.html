@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>third experiment</h1>
+    <p id="demo"></p>
+
+<script>
+    let header = "template literals";
+    let list = ["first list","second lit","third list"];
+
+    let html = `<h2> ${header} </h2><ul>`
+
+    for (const x of list) {
+        html += `<li>${x}</li>`;
+    }
+
+    html += `</ul>`;
+    document.getElementById("demo").innerHTML=html;
+</script>
+</body>
+</html>

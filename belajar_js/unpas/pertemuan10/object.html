@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object: intro</title>
+</head>
+<body>
+    <h1>Object</h1>
+    <p>object merupakan kumpulan nilai yang memiliki nama</p>
+    <p>someone said: in javascript, object are king if you undeerstand object, you understand javascript</p>
+    <h2>object pada bahasa pemograman lain</h2>
+    <ul>
+        <li>PHP : Associative Array</li>
+        <li>Python : Dictionaries</li>
+        <li>C : Hash Tables</li>
+        <li>Java : Hash Maps</li>
+        <li>Ruby & Perl : Hashes</li>
+    </ul>
+    <h2>why object ? </h2>
+    <p>membuat pengolahan data semakin mudah, dengan menamai index pada array</p>
+    <p>kosep object pada javascript juga bisa di implementasikan untuk OOP (object oriented programming)</p>
+    <p>data/karakter disebut properti, dan method disebut method</p>
+    <script>
+        // memebuat object
+        var mhs = {
+            nama : "Muhammad Irgi",
+            umur : 19,
+            ips : [4.00, 3.95, 4.00],
+            alamat : {
+                jalan : "Jl. abc No. 123",
+                kota : "Bogor",
+                provinsi : "Jawa Barat"
+            }
+        };
+        // dua cara menampilakan element pada object
+        console.log(mhs.nama);
+        console.log(mhs.alamat.kota);
+        console.log(mhs["nama"]);
+        console.log(mhs["alamat"]["kota"]);
+
+
+
+    </script>
+
+</body>
+</html>

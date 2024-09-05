@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Select Box - Tanggal, Bulan, dan Tahun dalam Satu Bar</title>
+</head>
+<body>
+    <label for="pilihTglBlnThn">Pilih Tanggal, Bulan, dan Tahun:</label>
+    <select id="pilihTglBlnThn">
+    </select>
+
+    <p>Tanggal, Bulan, dan Tahun yang Anda pilih: <span id="hasilPilihan"></span></p>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        var selectTglBlnThn = document.getElementById('pilihTglBlnThn');
+        var hasilPilihan = document.getElementById('hasilPilihan');
+
+        // Fungsi untuk membuat opsi tanggal
+        function populateTglBlnThn() {
+            var bulanOptions = [
+                'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
+                'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
+            ];
+
+            var tahunSekarang = new Date().getFullYear();
+            var tahunAwal = tahunSekarang - 10; // Mengambil 10 tahun ke belakang
+
+            for (var tahun = tahunAwal; tahun <= tahunSekarang; tahun++) {
+                for (var bulan = 0; bulan < 12; bulan++) {
+                    var option = document.createElement('option');
+                    var bulanText = bulanOptions[bulan];
+                    var tahunText = tahun;
+                    var tanggalText = bulan + 1; // Tanggal dimulai dari 1
+                    option.text = tanggalText + ' ' + bulanText + ' ' + tahunText;
+                    option.value = tahunText + '-' + (bulan + 1) + '-' + tanggalText;
+                    selectTglBlnThn.appendChild(option);
+                }
+            }
+        }
+
+        // Memanggil fungsi untuk mengisi opsi tanggal, bulan, dan tahun
+        populateTglBlnThn();
+
+        // Event listener untuk mengubah pilihan select
+        selectTglBlnThn.addEventListener('change', function () {
+            var tglBlnThnTerpilih = selectTglBlnThn.value;
+            hasilPilihan.textContent = tglBlnThnTerpilih;
+        });
+    });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object: membuat object</title>
+</head>
+<body>
+    <h1>Make some object</h1>
+    <ul>
+        <li>Object Literal</li>
+        <li>Function Declaration</li>
+        <li>Constructor Function (keyword new)</li>
+        <li>Object.create()</li>
+        <script>
+            // Membuat Object
+            // 1. object literal
+            var mhs = {
+                nama : "Sandhika Galih",
+                nrp : "043040023",
+                email : "sandhikagalih@unpas.ac.id",
+                jurusan : "Teknik Informatik"
+            }
+            var mhs2 = {
+                nama : "Doddy",
+                nrp : "033040007",
+                email : "doddy@gmail.com",
+                jurusan : "Teknik Industri"
+            }
+
+            // 2. function declaration
+            function buatObjectMahasiswa(nama, nrp, email, jurusan) {
+                var mahasiswa = {};
+                mahasiswa.nama = nama;
+                mahasiswa.nrp = nrp;
+                mahasiswa.email = email;
+                mahasiswa.jurusan = jurusan;
+                return mahasiswa;
+            }
+            //isi objectnya
+            var mhs3 = buatObjectMahasiswa('Novariza', '023040123', 'nova@yahoo.com', 'Teknik Pangan');
+            var mhs4 = buatObjectMahasiswa('Muhammad Irgi', '221106042', 'muhammad.irgi.fajri@gmail.com', 'Teknik Informatika');
+
+            // 3. Constructor Function
+            function Mahasiswa(nama, nrp, email, jurusan) {
+                this.nama = nama;
+                this.nrp = nrp;
+                this.email = email;
+                this.jurusan = jurusan;
+            }
+            //isi objectnya
+            var mhs5 = new Mahasiswa('Erik', '013040321', 'erik@cloud.com', 'Teknik Mesin');
+        </script>
+    </ul>
+</body>
+</html>

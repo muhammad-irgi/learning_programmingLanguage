@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Flow</title>
+</head>
+<body>
+    <h1>Control Flow</h1>
+    <h2>While loop</h2>
+    <p id="print"></p>
+    <br>
+    <h2>For loop</h2>
+    <p id="print2"></p>
+    <script>
+        // Pengulangan (Looping)
+        // infinite loop --> while loop
+        
+        //stop by user
+        var ulang = true;
+        while(ulang){
+            console.log("Hello World");
+            ulang = confirm('lagi ? ');
+        };
+
+        //stop by programs
+        var nilai_awal = 1;
+        let msg = "";
+        msg += '<ul>';
+        while(nilai_awal <= 5){
+            msg += '<li>hello world</li>';
+            nilai_awal++;
+        };
+        msg += '</ul>';
+        document.getElementById("print").innerHTML = msg;
+
+        // --> for loop
+        let msg2 = "";
+        msg2 = '<ul>';
+        for (let start_number = 1; start_number <= 5; start_number++) {
+            msg2 += '<li>Muhammad irgi</li>';
+        };
+        msg2 += '</ul>';
+        document.getElementById("print2").innerHTML = msg2;
+    </script>
+</body>
+</html>

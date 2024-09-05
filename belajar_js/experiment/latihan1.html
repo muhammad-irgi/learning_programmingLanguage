@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age calculator</title>
+</head>
+<body>
+    <h1>first exercise</h1>
+    <label for="dateOfBirth">input your date of birth : </label>
+    <input type="date" id="dateOfBirth">
+    <button onclick="calculate()">count it</button>
+    <p>your age is : <span id="result"></span></p>
+<script>
+    function calculate(){
+        var inputDateOfBirth = document.getElementById("dateOfBirth");
+        if (inputDateOfBirth === '') {
+            alert('please input your year of birth!');
+            return;
+        }
+
+        var dateOfBirthvar = new Date(inputDateOfBirth);
+        var now = new Date();
+
+        if(dateOfBirthvar > now){
+            alert('error');
+            return;
+        }
+
+        var dateDifference = now - dateOfBirthvar;
+        var age = new Date(dateDifference);
+
+        var year = age.getUTCFullYear() - 2023;
+        var month = age.getUTCMonth();
+        var day = age.getUTCDate();
+
+        result = document.getElementById("result");
+        result.textContent = year + 'year, ' + month + 'month, ' + date + 'date';
+    }
+</script>
+</body>
+</html>

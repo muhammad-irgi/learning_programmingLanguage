@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object: This</title>
+</head>
+<body>
+    <h1>Object 3: This</h1>
+    <p>penjelasan tentang 'this'</p>
+    <p>this adalah keyword spesial yang secara otomatis didefinisikan di setiap function</p>
+    <script>
+        // // cara 1 -- function declaration
+        // function halo() {
+        //     console.log(this);
+        //     console.log('halo');
+        // }
+        // halo();
+        //this mengembalikan object Global
+
+        // cara 2 -- Object Literal
+        // var obj = {a : 10, nama : "Muhammad Irgi"};
+        // var obj2 = {b : 20, nama2 : "elbara saputra"};
+        // obj2.halo = function(){ //obj2.halo() ini yang mempengaruhi
+        //     console.log(this);
+        //     console.log('halo');
+        // }
+        // obj2.halo();
+        //this mengembalikan object yang bersangkutan
+
+        // // cara 3 -- Consturctor
+        // function Halo() {
+        //     console.log(this);
+        //     console.log('halo');
+        // }
+        // var obj = new Halo();
+        //mengembalikan object yang baru dibuat;
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array: 2</title>
+</head>
+<body>
+    <h1>Array in javascript 2</h1>
+    <p>open console in inspect to see the output !!</p>
+
+    <script>
+        // memanipulasi array
+        // 1. menambah array
+        // var arr = [];
+        // arr[0] = "Muhammad"; 
+        // arr[1] = "Irgi";
+        // arr[2] = "Nova";
+        // arr[3] = "Doddy";
+        // console.log(arr);
+
+        // 2. menghapus array
+        // cara manual: dimana nilai indexnya tidak hilang tapi diganti dengan nilai undefined
+        // var arr = ["Sandhika", "Irgi", "Nova"];
+        // arr[1] = undefined;
+        // console.log(arr);
+
+        // 3. menampilkan array
+        // var arr = ["Sandhika", "Irgi", "Nova"];
+        // for(var i = 0; i < arr.length; i++){
+        //     console.log("Mahasiswa ke-"+(i+1)+": "+arr[i]);
+        // }
+
+        //METHOD ARRAY PADA JAVASCRIPT
+        var arr = ["Sandhika", "Irgi", "Nova"];
+        // 1. length
+            // console.log(arr.length);
+
+        // 2. join()
+            // console.log(arr.join(' - '));
+        
+        // 3. push & pop
+        //bekerja di akhir array
+            // arr.push('doddy', 'Fitri'); // add
+            // arr.pop(); //delete lastest element of array
+            // console.log(arr.join(' - '));
+        
+        // 4. unshift & shift
+        //bekerja di awal array
+            // arr.unshift('Doddy');
+            // arr.shift();
+            // console.log(arr.join(' - '));
+        
+        // 5. splice() 
+        //salah satu teknik menghapus element array di js
+        //splice(index, amount_would_be_delete, newElement1, newElement2, ....)
+            // arr.splice(1,1);
+            // arr.splice(3,0,'Puspita', 'Fitri');
+            // console.log(arr.join(' - '));
+        
+        // 6. slice
+        //salah satu teknik menghapus element array di js
+        //slice(awal, akhir)
+        // *i want to set "sandhika" and "irgi" from the array
+            // var arr2 = arr.slice(0, 2);
+            // console.log(arr2.join(' - '));
+
+        // 7. foreach
+        var angka = [7, 1, 2, 5, 4, 3, 8, 9, 2, 10, 12, 11, 13, 15, 14];
+        // for(var i = 0; i < angka.length; i++){
+        //     console.log(angka[i]);
+        // }
+
+            // function expression, print array same as above
+        // angka.forEach((e, i) => {
+        //     console.log('mahasiswa ke-' + (i+1) + ' adalah: ' + (e*2));
+        // });
+
+        // 8. map
+        //lebih bagus daripada foreach karena map mengembalikan array
+        // var angka2 = angka.map(e => {
+        //     return e * 2 - 1;
+        // });
+        // console.log(angka2.join(' - '));
+    
+        // 9. sort
+        // angka.sort(function(a, b){   
+        //     return a - b;
+        // });
+        // console.log(angka.join(' - '));
+            
+        // 10. filter & find
+        //mencari nilai pada array dan mengembalikannya dalam bentuk array
+        // var angka2 = angka.filter(function(x){
+        //     return x > 5;
+        // });
+        // console.log(angka2.join(' - '));
+    
+        //find tidak mengahsilkan array baru
+        //find akan mencari nilai sesuai yang pertama kali ditemukannya. jika sudah menemukan find akan mengeluarkan outputs
+        //  var angka2 = angka.find(function(x){
+        //         return x > 5;
+        //     });
+        // console.log(angka2);
+    </script>
+</body>
+</html>

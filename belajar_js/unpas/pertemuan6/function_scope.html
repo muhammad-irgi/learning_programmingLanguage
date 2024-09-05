@@ -1,0 +1,48 @@
+<!-- function scope -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>open the console to see the output</h1>
+    <script>
+
+        // global variable
+        // because this variable or kind of like that are able
+        var a = 1;
+
+        // function 
+        function test(){
+            var b = 2;
+            console.log(b);
+        }
+        // use the function test
+        test();
+
+        // ================= //
+        // global var. because b in the global field
+        var b = 3;
+
+        function test2(){
+            b = 4;
+        }
+
+        test2();
+        console.log(b);
+        // the output is 4, because when function activacted var b changed to 4
+        // but if in the global field b hasnt declare it will error
+        
+        //function with strinc
+        var d = 1;
+        function test3(d){
+            console.log(d);
+        }
+
+        test3();
+
+    </script>
+</body>
+</html>

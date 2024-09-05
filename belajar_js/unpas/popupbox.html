@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<body>
+    <h1>Pop Up Box</h1>
+    <p id="msg"></p>
+<script>
+    //alert, prompt, confirm
+    //alert
+    alert('Hello World');
+    alert('hai');
+    alert('halo');
+    //prompt
+    var prompt1 = prompt('Masukan nama : ');
+    document.getElementById("msg").innerHTML = prompt1;
+    //confirm
+    var text = confirm("kamu yakin?");
+    alert(text); //if you click 'yes' it will be True, if you click 'no' or 'cancel' it will be False;
+    if( text === true){
+        alert("user menekan tombol 'yes'");
+    } else {
+        alert("user menekan tombol 'cancel'");
+    }
+</script>
+</body>
+</html>
